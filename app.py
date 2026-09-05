@@ -6,9 +6,7 @@ from huggingface_hub import hf_hub_download
 
 st.set_page_config(page_title="AI vs Human Image Detector", page_icon="🖼️")
 
-# غيّري "YOUR-USERNAME/ai-human-resnet50" باسم المستخدم بتاعك الحقيقي على Hugging Face
-# وغيّري "best_resnet50.keras" لو سميتي الملف بشكل مختلف
-HF_REPO_ID = "YOUR-USERNAME/ai-human-resnet50"
+HF_REPO_ID = "retagahmed/ai-human-resnet50"
 MODEL_FILENAME = "best_resnet50.keras"
 
 @st.cache_resource
